@@ -9,23 +9,32 @@ const sugestoes = [
 ]
 
 
-const RenderSugestao = () => sugestoes.map(({imagem, usuario, info}, index) => 
-<Sugestao 
-key = {index}
-imagem = {imagem}
-usuario = {usuario}
-info = {info}
-/>
-)
+const RenderSugestao = () => sugestoes.map(({ imagem, usuario, info }, index) =>
+    <Sugestao key={index} imagem={imagem} usuario={usuario} info={info} />)
 
-export default function Sidebar () {
+
+function UsuarioSugerido(props) {
+    return (
+        <div>
+            <img src={props.Imagem} alt={props.User} />
+            <div className="texto">
+                <strong>{props.Text}</strong>
+                {props.Nome}
+            </div>
+        </div>
+    );
+}
+
+export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="usuario">
-                <img src="assets/img/catanacomics.svg" alt = "user"/>
+                <UsuarioSugerido
+                    Imagem="assets/img/catanacomics.svg" User="user" />
                 <div className="texto">
-                    <strong>catanacomics</strong>
-                    Catana
+                    <UsuarioSugerido
+                        Text="catanacomics"
+                        Nome="Catana" />
                 </div>
             </div>
 

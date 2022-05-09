@@ -26,15 +26,15 @@ export default function Header() {
                 <input type="text" placeholder="Pesquisar" />
             </div>
 
-            <div class="icones">
+            <div className="icones">
                 <ion-icon name="paper-plane-outline"></ion-icon>
                 <ion-icon name="compass-outline"></ion-icon>
                 <ion-icon name="heart-outline"></ion-icon>
                 <ion-icon name="person-outline"></ion-icon>
             </div>
 
-                <NavTop iconeName="paper-plane-outline" type = "icones-mobile"/>
-            
+            <NavTop iconeName="paper-plane-outline" type="icones-mobile" />
+
         </div>
 
     );
