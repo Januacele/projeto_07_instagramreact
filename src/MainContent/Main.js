@@ -1,5 +1,5 @@
 import Stories from "./Stories";
-import Content from "./Content";
+import ContentPosts from "./ContentPosts";
 import Sidebar from "./Sidebar";
 
 export default function Main() {
@@ -9,7 +9,7 @@ export default function Main() {
         <div class="corpo">
             <div class="esquerda">
                 <Stories />
-                <Content />
+                <ContentPosts />
             </div>
             <Sidebar />
         </div >

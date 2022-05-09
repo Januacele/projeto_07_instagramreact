@@ -1,20 +1,26 @@
+function NavTop(props) {
+    return (
+        <div class={props.type}>
+            <ion-icon name={props.iconeName}></ion-icon>
+            <img src={props.image} />
+        </div>
+    );
+}
+
 export default function Header() {
 
     return (
+
         <div class="container">
             <div class="logo">
-                <ion-icon name="logo-instagram"></ion-icon>
+                <NavTop iconeName="logo-instagram" type="logo" />
                 <div class="separador"></div>
-                <img src="assets/img/logo.png" />
+                <NavTop image="assets/img/logo.png" type="logo" />
             </div>
 
-            <div class="logo-mobile">
-                <ion-icon name="logo-instagram"></ion-icon>
-            </div>
+            <NavTop iconeName="logo-instagram" type="logo-mobile" />
 
-            <div class="instagram-mobile">
-                <img src="assets/img/logo.png" />
-            </div>
+            <NavTop image="assets/img/logo.png" type="instagram-mobile" />
 
             <div class="pesquisa">
                 <input type="text" placeholder="Pesquisar" />
@@ -27,9 +33,8 @@ export default function Header() {
                 <ion-icon name="person-outline"></ion-icon>
             </div>
 
-            <div class="icones-mobile">
-                <ion-icon name="paper-plane-outline"></ion-icon>
-            </div>
+                <NavTop iconeName="paper-plane-outline" type = "icones-mobile"/>
+            
         </div>
 
     );
