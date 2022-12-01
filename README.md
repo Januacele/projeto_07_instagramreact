@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# <p align = "center"> Projeto - Instagram [React] </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png"/>
+</p>
 
-## Available Scripts
+<p align = "center">
+   <img src="https://img.shields.io/badge/author-Januacele Vieira-4dae71?style=flat-square" />
+   <img src="https://img.shields.io/badge/languages- JavaScript e CSS -4dae71?style=flat-square" />
+</p>
 
-In the project directory, you can run:
+##  :clipboard: Descrição
+  O projeto Instagram [React] é o primeiro projeto em react que desenvolvi e utiliza como linguagem o JavaScript. Nesse projeto foi implementado o layout
+  do aplicativo instagram, onde foi trabalhado a componentização de cada parte que compõe a aplicação, a reuasibilidade desses componentes, o conceito de
+  props, destructuring, listas, keys e HoF (High Order Functions) com o uso do map. No final da documentação colocarei os links de estudo para cada temática abordada
+  nesse projeto. 
+***
+## :computer:	 Tecnologias e Conceitos
 
-### `npm start`
+- React
+- JavaScript
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🏁 Rodando a aplicação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Faça o clone desse repositório na sua maquina:
 
-### `npm test`
+```
+git clone git@github.com:Januacele/projeto_07_instagramreact.git
+```
+Instale as dependências do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install
+```
+Rode a aplicação
 
-### `npm run build`
+```
+npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para fazer o build da aplicação, rode:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Aprenda Mais
 
-### `npm run eject`
+Iniciando uma aplicação React - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Componentes e props - https://reactjs.org/](https://reactjs.org/docs/components-and-props.html
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Listas e Chaves -  https://reactjs.org/](https://reactjs.org/docs/components-and-props.html](https://reactjs.org/docs/lists-and-keys.html
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Destructuring https://www.w3schools.com/react/react_es6_destructuring.asp
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+HoF - https://www.youtube.com/watch?v=AMpm9rZT2c8
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
